@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;600;700;800;900&family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.wrapper-content{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header,.section-primary,footer{
+    background-color: #ffe6a7;
+}
+
+
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+.logo{
+    display: block;
+    
+}
+.logo img{
+    padding: 20px;
+    width: 100px;
+}
+.header-nav{
+    width: 300px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav a{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;  
+    font-size: 20px; 
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #432818;
+}
+.header-nav a:hover{
+    transition: all 0.2s;
+    color: #dda03e;
+}
+
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 60px;
+   
+}
+
+.content {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+}
+.content span{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.content-one-img img{
+    width: 400px;
+    border-radius: 20px;
+}
+.content-one{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.content-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.link-button{
+    width: 85px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    border-radius: 50px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+}
+.link-button:hover{
+    transition: all 0.2s;
+    background-color: #dda03e;
+}
+.socialMedia{
+    padding: 20px 0;
+}
+.socialMedia img{
+    margin-right: 10px;
+    width: 20px;
+}
+.section-work{
+    padding: 30px 0;
+}
+.section-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.section-head span{
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+.work-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    border-radius: 20px;
+    width: 320px;
+}
+.card{
+    padding: 30px;
+}
+.work-name{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+}
+.work-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
+.about img{
+    border-radius: 100%;
+    padding: 0 50px;
+    width: 200px;
+}
+
+.about-list-title{
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.learned-list{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-content: space-between;
+  padding-left: 20px;
+  margin: 10px 0 30px;
+}
+.learned-list-item{
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    margin: 2px 60px 2px 0;
+}
+.about-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 200;
+}
+
+
+
+.foot-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px
+}
+.foot-logo p{
+    font-family:  'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+}
+.foot-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   width: 50vm;
+}
+.foot-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+
+}
+.foot-content h2{
+    font-family:  'Philosopher', sans-serif;
+    letter-spacing: 2px;
+}
+.foot-content a{
+    font-family:  'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #432818;
+}
+.foot-content  a:hover{
+    transition: all 0.2s;
+    color: #dda03e;
+}
+.foot-social{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+
+
+
+/* rwd */
+@media screen and (max-width: 768px ) {
+    .wrapper-hamburger{
+        padding: 10px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .cross-button {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        transition: all 0.2s;
+    }
+    .header-nav{
+        display: none;
+    }
+
+    .header-content_active {
+        background-color: #333;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+    
+      .header-content_active .header-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        margin-top: 20vh;
+      }
+    
+      .header-content_active a {
+        color: white;
+        font-size: 36px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+      }
+    
+      .header-content_active .wrapper-hamburger {
+        height: 30px;
+        justify-content: center;
+      }
+    
+      .header-content_active .cross-button {
+        background-color: white;
+      }
+    
+      .header-content_active .cross-button-top {
+        transform: rotate(45deg) translateY(2px);
+      }
+    
+      .header-content_active .cross-button-bottom {
+        transform: rotate(-45deg) translateY(-2px);
+      }
+
+      .header-content {
+        transition: background-color 0.2s;
+      }
+
+
+
+
+    .section-one{
+        
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .content-one-img img{
+        margin-top: 80px;
+        width: 300px;
+    }
+    .work-card{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .about-text{
+        padding: 20px 0;
+        width: 300px;
+    }
+    .learned-list{
+        width: 300px;
+    }
+    .foot-section{
+        flex-direction: column;
+    }
+    .foot-content{
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
